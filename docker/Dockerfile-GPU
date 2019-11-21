@@ -4,7 +4,6 @@ MAINTAINER ratsgo <ratsgo@naver.com>
 RUN apt-get update -y \
  && apt-get install -y wget language-pack-ko openjdk-8-jdk curl git-core locales
 
-RUN apt-get install -y locales language-pack-ko
 ENV LANG ko_KR.UTF-8
 ENV LANGUAGE ko_KR:en
 ENV LC_ALL ko_KR.UTF-8
